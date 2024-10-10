@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hackathon-post-container {
+  @apply leading-8 max-[768px]:leading-6;
+}
+
+.hackathon-post-container p {
+  @apply text-base max-[768px]:text-[0.85rem] max-[425px]:text-[0.7rem];
+}
+
+.hackathon-intro,
+.hackathon-details,
+.hackathon-prize-info,
+.hackathon-eligibility,
+.hackathon-future {
+  @apply mb-6;
+}
+
+.hackathon-section-title {
+  @apply text-2xl font-semibold mt-10 mb-4 max-[768px]:text-xl max-[425px]:text-lg;
+  color: white;
+}
