@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.research-project-container {
+  @apply leading-8 max-[768px]:leading-6;
+}
+
+.research-project-container p {
+  @apply text-base max-[768px]:text-[0.85rem] max-[425px]:text-[0.7rem];
+}
+
+.research-project-container a {
+  @apply text-blue-400 hover:text-blue-500 underline;
+}
+
+.research-intro,
+.research-details,
+.research-meeting-info,
+.research-guidelines,
+.research-future {
+  @apply mb-6;
+}
+
+.research-section-title {
+  @apply text-2xl font-semibold mt-10 mb-4 max-[768px]:text-xl max-[425px]:text-lg;
+}
+
+strong {
+  color: #f39c12;
+}

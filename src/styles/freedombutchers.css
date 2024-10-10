@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.freelance-post-container {
+  @apply leading-8 max-[768px]:leading-6;
+}
+
+.freelance-post-container p,
+.tech-item {
+  @apply text-base max-[768px]:text-[0.85rem] max-[425px]:text-[0.7rem];
+}
+
+.freelance-post-container a {
+  @apply text-blue-400 hover:text-blue-500 underline;
+}
+
+.freelance-intro,
+.freelance-details,
+.freelance-status,
+.freelance-business-info,
+.freelance-reflection,
+.freelance-github {
+  @apply mb-6;
+}
+
+.freelance-section-title {
+  @apply text-2xl font-semibold mt-10 mb-4 max-[768px]:text-xl max-[425px]:text-lg;
+}
+
+.freelance-tech-stack {
+  @apply list-disc pl-4 mt-4 list-inside flex flex-col space-y-1 max-[425px]:pl-2;
+}
